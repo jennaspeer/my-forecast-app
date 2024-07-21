@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,8 +11,8 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="weather-app">
       <header>
         <form id="search-form">
@@ -29,7 +29,38 @@
             id="search-form-button"
           />
         </form>
-        <h1> hello world </h1>
-      
-</body>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city" id="city">London</h1>
+            <p class="weather-app-details">
+              Tuesday 14:49, scattered clouds
+              <br />
+              Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">🌤️</div>
+            <div class="weather-app-temperature">12</div>
+            <div class="weatehr-app-unit">°C</div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        This project was Coded by
+        <a href="https://github.com/jennaspeer" target="_blank">Jenna Speer</a>,
+        is
+        <a href="https://github.com/jennaspeer?tab=repositories" target="_blank"
+          >open sourced on Github</a
+        >
+        and
+        <a href="https://weather-aimsir-app.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
 </html>
