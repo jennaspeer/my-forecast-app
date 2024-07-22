@@ -1,10 +1,11 @@
 body {
-  background-color: #f5f4f1;
+  background-image: url("https://www.hiveworkshop.com/media/blue-sky-and-white-clouds-high-definition-picture.106696/full?d=1465614108");
+  background-size: cover;
   font-family: "Montserrat", sans-serif;
 }
 
 .weather-app {
-  background: white;
+  background-color: rgba(207, 207, 207, 0.5);
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.1);
@@ -15,6 +16,7 @@ body {
 header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
+  margin-bottom: 20px;
 }
 .search-form-input {
   background-color: #f5f4f1;
@@ -30,6 +32,12 @@ header {
   border: none;
   border-radius: 6px;
   color: white;
+  transition: all 200ms ease-in-out;
+}
+.search-form-button:hover {
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(192, 192, 192, 0.4),
+    0 17px 50px 0 rgba(220, 220, 220, 0.19);
 }
 
 .weather-app-data {
@@ -111,4 +119,5 @@ footer {
   text-align: center;
   font-size: 13px;
   color: rgba(0, 0, 0, 0.6);
+  margin-top: 20px;
 }
