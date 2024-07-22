@@ -1,6 +1,6 @@
 body {
   background-image: url("https://www.hiveworkshop.com/media/blue-sky-and-white-clouds-high-definition-picture.106696/full?d=1465614108");
-  background-size: cover;
+  background-size: 100%;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -29,6 +29,7 @@ header {
 .search-form-button {
   background: #81a6da;
   padding: 15px 20px;
+  margin-left: 10px;
   border: none;
   border-radius: 6px;
   color: white;
@@ -56,7 +57,7 @@ header {
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
-  color: rgba(30, 33, 66, 0.4);
+  color: rgba(20, 22, 46, 0.4);
   font-weight: 500;
 }
 
@@ -76,11 +77,11 @@ header {
 }
 
 strong {
-  color: #f65282;
+  color: #f0612d;
 }
 
 a {
-  color: #81a6da;
+  color: #496c9d;
 }
 
 .weather-forecast {
@@ -91,7 +92,7 @@ a {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(20, 22, 46, 0.4);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -104,7 +105,7 @@ a {
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: #f0612d;
   margin-top: 10px;
   display: flex;
   justify-content: center;
